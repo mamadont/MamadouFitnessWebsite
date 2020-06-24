@@ -1,0 +1,8 @@
+body {
+    background-image: url('./assets/website-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}

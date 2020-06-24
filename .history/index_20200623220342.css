@@ -12,6 +12,11 @@
 }
 
 #takeflight-image {
-    height: 500px;
-    width: 500px;
+    height: 55%;
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -13%;
+    margin-top: -15%;
 }

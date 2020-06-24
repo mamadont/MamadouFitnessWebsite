@@ -1,0 +1,12 @@
+body {
+    background-image: url('./assets/website-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

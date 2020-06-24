@@ -1,0 +1,11 @@
+#leftSide {
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+}
+
+#rightSide {
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+}
