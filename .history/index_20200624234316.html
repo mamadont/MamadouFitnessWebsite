@@ -16,30 +16,17 @@
 <body>
     <!-- Home Page Background Image-->
     <div class="bg animate__animated animate__slideInUp">
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Social Media</a>
-                <a href="#">Workout Programs</a>
-                <a href="#">Shop</a>
-                <a href="#">Apply for Coaching</a>
-
-            </div>
-        </div>
-        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Home</a></li>
+                <li class="page-item"><a class="page-link" href="#">About Me</a></li>
+                <li class="page-item"><a class="page-link" href="#">Social Media</a></li>
+                <li class="page-item"><a class="page-link" href="#">Workout Programs</a></li>
+                <li class="page-item"><a class="page-link" href="#">Shop</a></li>
+                <li class="page-item"><a class="page-link" href="#">Apply for Coaching</a></li>
+            </ul>
+        </nav>
     </div>
-
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
 
     <!-- Necessary script tags for Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
