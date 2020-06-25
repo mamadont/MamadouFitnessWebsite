@@ -18,3 +18,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 2s;
+}
