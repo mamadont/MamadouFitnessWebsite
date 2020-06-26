@@ -17,7 +17,6 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
 }
 
 
@@ -28,8 +27,6 @@ html {
     cursor: pointer;
     padding-left: 10px;
     color: #FF0000;
-    height: 300px;
-    width: 300px;
 }
 
 
@@ -67,8 +64,7 @@ html {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: red;
-    text-decoration: none;
+    color: #f1f1f1;
 }
 
 .overlay .closebtn {

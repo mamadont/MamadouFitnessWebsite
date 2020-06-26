@@ -68,7 +68,6 @@ html {
 .overlay a:hover,
 .overlay a:focus {
     color: red;
-    text-decoration: none;
 }
 
 .overlay .closebtn {

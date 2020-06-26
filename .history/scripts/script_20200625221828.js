@@ -3,12 +3,10 @@ function openNav() {
     if (window.innerWidth < 1280) {
         document.getElementById("myNav").style.width = "100%";
     } else {
-        document.getElementById("myNav").style.width = "30%";
+        document.getElementById("myNav").style.width = "20%";
     }
 
-    document.getElementById("main").style.opacity = 0.5;
-
-
+    // document.getElementById("main").style.opacity = 0.5;
 
 }
 
