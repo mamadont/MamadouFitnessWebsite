@@ -1,0 +1,26 @@
+/* Background Image */
+
+body,
+html {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.bg {
+    /* The image used */
+    background-color: #FF0000;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+#about-me-card {
+    margin: auto;
+}
+
+img
