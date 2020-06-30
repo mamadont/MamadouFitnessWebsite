@@ -97,8 +97,6 @@ i {
 }
 
 #banner {
-    margin: auto;
-    top: 90%;
-    width: 50%;
-    text-align: center;
+    top: 50%;
+    left: 50%;
 }

@@ -96,9 +96,4 @@ i {
     color: white;
 }
 
-#banner {
-    margin: auto;
-    top: 90%;
-    width: 50%;
-    text-align: center;
-}
+.fab {}

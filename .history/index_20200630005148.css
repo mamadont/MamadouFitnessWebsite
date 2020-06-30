@@ -98,7 +98,10 @@ i {
 
 #banner {
     margin: auto;
-    top: 90%;
     width: 50%;
     text-align: center;
+}
+
+#media-icons {
+    align-items: center;
 }

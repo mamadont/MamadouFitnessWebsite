@@ -96,9 +96,7 @@ i {
     color: white;
 }
 
-#banner {
-    margin: auto;
-    top: 90%;
-    width: 50%;
-    text-align: center;
+#social-media-banner {
+    top: 50%;
+    left: 50%;
 }

@@ -96,9 +96,6 @@ i {
     color: white;
 }
 
-#banner {
-    margin: auto;
-    top: 90%;
-    width: 50%;
-    text-align: center;
+.fa-twitter {
+    margin: 10vw 0 auto;
 }
