@@ -100,9 +100,7 @@ html {
 
 .jumbotron {
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
+    margin: auto;
     color: red;
 }
 

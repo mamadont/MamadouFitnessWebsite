@@ -3,7 +3,6 @@
 body,
 html {
     height: 100%;
-    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -96,20 +95,12 @@ html {
 }
 
 
-/* About me content */
+/* About me card */
 
-.jumbotron {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
-    color: red;
-}
-
-#jumbotron-title {
+.card {
     margin: auto;
 }
 
-#my-jumbo {
-    background-color: black;
+img {
+    height: 400px;
 }
