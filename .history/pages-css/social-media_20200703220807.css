@@ -85,18 +85,3 @@ html {
         right: 35px;
     }
 }
-
-
-/* Header */
-
-#header {
-    margin: auto;
-    color: white;
-}
-
-
-/* Instagram feed */
-
-#curator-feed-default-feed-layout {
-    background-color: black;
-}

@@ -20,11 +20,8 @@
         <!-- Hamburger Icon-->
         <span class="menu-icon" onclick="openNav()">&#9776; </span>
 
-        <h1 id="header"> Mamadou Fitness Instagram Feed </h1>
-
         <!-- Embedding Instagram feed-->
         <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
-
     </div>
 
     <!-- Side menu-->
@@ -44,10 +41,18 @@
     <!-- Javascript for this page-->
     <script src="../scripts/script.js"></script>
 
-    <script src="../scripts/ig-feed.js">
+    <script type="text/javascript">
+        /* curator-feed-default-feed-layout */
+        (function() {
+            var i, e, d = document,
+                s = "script";
+            i = d.createElement("script");
+            i.async = 1;
+            i.src = "https://cdn.curator.io/published/f514e377-8815-4cbf-938a-c00340887c10.js";
+            e = d.getElementsByTagName(s)[0];
+            e.parentNode.insertBefore(i, e);
+        })();
     </script>
-
-
 
     <!-- Necessary script tags for Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

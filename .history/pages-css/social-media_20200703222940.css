@@ -86,17 +86,6 @@ html {
     }
 }
 
-
-/* Header */
-
-#header {
-    margin: auto;
-    color: white;
-}
-
-
-/* Instagram feed */
-
 #curator-feed-default-feed-layout {
-    background-color: black;
+    background-color: black
 }
