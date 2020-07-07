@@ -3,7 +3,7 @@
 
 <head>
     <title>Mamadou Fitness</title>
-    <link rel="stylesheet" href='../pages-css/social-media.css'>
+    <link rel="stylesheet" href='../pages-css/contact.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/0a51dc7bb6.js" crossorigin="anonymous"></script>
+
+    <!-- MATERIAL DESIGN ICONIC FONT -->
+    <link rel="stylesheet" href="../fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="../fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+
 </head>
 
 <body>
@@ -20,10 +26,34 @@
         <!-- Hamburger Icon-->
         <span class="menu-icon" onclick="openNav()">&#9776; </span>
 
-        <h1 id="header"> Mamadou Fitness Instagram Feed </h1>
-
-        <!-- Embedding Instagram feed-->
-        <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+        <!-- START: Contact form -->
+        <div class="wrapper">
+            <div class="inner">
+                <form action="">
+                    <h3>Contact Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                    <label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span>Your Name</span>
+						<span class="border"></span>
+					</label>
+                    <label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span for="">Your Mail</span>
+						<span class="border"></span>
+					</label>
+                    <label class="form-group">
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span for="">Your Message</span>
+						<span class="border"></span>
+					</label>
+                    <button>Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+                </form>
+            </div>
+        </div>
+        <!-- END: Contact form -->
 
     </div>
 
@@ -44,8 +74,6 @@
     <!-- Javascript for this page-->
     <script src="../scripts/script.js"></script>
 
-    <script src="../scripts/ig-feed.js">
-    </script>
 
 
 
