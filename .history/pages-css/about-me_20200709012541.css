@@ -99,7 +99,7 @@ html {
 /* About me content */
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #header {
@@ -110,10 +110,6 @@ p {
     height: 350px;
     width: 500px;
     margin: auto;
-}
-
-.animate__animated {
-    --animation-duration: 3s;
 }
 
 

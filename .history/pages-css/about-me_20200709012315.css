@@ -99,7 +99,7 @@ html {
 /* About me content */
 
 p {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #header {
@@ -107,13 +107,8 @@ p {
 }
 
 #my-image {
-    height: 350px;
+    height: 500px;
     width: 500px;
-    margin: auto;
-}
-
-.animate__animated {
-    --animation-duration: 3s;
 }
 
 
@@ -127,8 +122,8 @@ p {
         padding: 20px;
     }
     #my-image {
-        height: 300px;
-        width: 350px;
+        height: 200px;
+        width: 200px;
         margin: auto;
     }
 }

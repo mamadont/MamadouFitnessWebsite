@@ -99,36 +99,32 @@ html {
 /* About me content */
 
 p {
-    font-size: 22px;
+    font-size: 30px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 #header {
     text-align: center;
 }
 
-#my-image {
-    height: 350px;
-    width: 500px;
-    margin: auto;
-}
-
-.animate__animated {
-    --animation-duration: 3s;
-}
+#carousel {}
 
 
 /* For smaller screens */
 
 @media(max-width: 767px) {
     p {
-        font-size: large;
+        font-size: larger;
     }
     #about-me-desc {
         padding: 20px;
     }
-    #my-image {
-        height: 300px;
-        width: 350px;
-        margin: auto;
+    #carousel {
+        padding: 10px;
     }
 }
