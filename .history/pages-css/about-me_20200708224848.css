@@ -1,3 +1,5 @@
+/* Background Image */
+
 body,
 html {
     height: 100%;
@@ -5,12 +7,9 @@ html {
     overflow-x: hidden;
 }
 
-
-/* Background Image */
-
 .bg {
     /* The image used */
-    background-image: url("./assets/website-background.png");
+    background-color: #FF0000;
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -27,9 +26,16 @@ html {
     font-size: 30px;
     cursor: pointer;
     padding-left: 10px;
-    color: #FF0000;
+    color: black;
     height: 300px;
     width: 300px;
+}
+
+
+/* About me header */
+
+#about-me-header {
+    text-align: center;
 }
 
 
@@ -89,16 +95,20 @@ html {
 }
 
 
-/* Font Awesome Icons */
+/* About me content */
 
-i {
-    color: white;
+.jumbotron {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    color: red;
 }
 
-#banner {
-    left: 25%;
-    width: 50%;
-    text-align: center;
-    position: absolute;
-    bottom: 10%;
+#jumbotron-title {
+    margin: auto;
+}
+
+#my-jumbo {
+    background-color: black;
 }
