@@ -102,9 +102,9 @@ p {
 }
 
 img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 #header {

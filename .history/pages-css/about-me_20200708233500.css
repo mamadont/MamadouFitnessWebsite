@@ -101,12 +101,6 @@ p {
     font-size: 30px;
 }
 
-img {
-    width: 200px;
-    height: 250px;
-    object-fit: cover;
-}
-
 #header {
     text-align: center;
 }
@@ -120,8 +114,5 @@ img {
     }
     #about-me-desc {
         padding: 20px;
-    }
-    #carousel {
-        padding: 10px;
     }
 }

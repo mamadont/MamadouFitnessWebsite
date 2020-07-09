@@ -102,13 +102,17 @@ p {
 }
 
 img {
-    width: 200px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
 #header {
     text-align: center;
+}
+
+#carousel {
+    height: 200px;
 }
 
 

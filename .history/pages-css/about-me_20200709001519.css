@@ -102,9 +102,8 @@ p {
 }
 
 img {
-    width: 200px;
     height: 250px;
-    object-fit: cover;
+    width: 250px;
 }
 
 #header {
@@ -121,7 +120,7 @@ img {
     #about-me-desc {
         padding: 20px;
     }
-    #carousel {
-        padding: 10px;
+    #image-row {
+        left: -5;
     }
 }
