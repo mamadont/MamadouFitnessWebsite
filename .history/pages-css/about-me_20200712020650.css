@@ -7,6 +7,11 @@ html {
     background-color: red;
 }
 
+body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
 .bg {
     /* The image used */
     background-color: #FF0000;
@@ -34,9 +39,8 @@ html {
 
 /* About me header */
 
-#header {
+#about-me-header {
     text-align: center;
-    font-family: 'Montserrat';
 }
 
 
@@ -122,7 +126,6 @@ p {
 @media(max-width: 767px) {
     p {
         font-size: large;
-        font-family: 'Montserrat';
     }
     #about-me-desc {
         padding: 20px;

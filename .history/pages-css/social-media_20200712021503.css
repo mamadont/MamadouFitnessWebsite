@@ -3,13 +3,11 @@
 body,
 html {
     height: 100%;
-    overflow-x: hidden;
-    background-color: red;
 }
 
 .bg {
     /* The image used */
-    background-color: #FF0000;
+    background-color: black;
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
@@ -26,17 +24,9 @@ html {
     font-size: 30px;
     cursor: pointer;
     padding-left: 10px;
-    color: black;
+    color: white;
     height: 300px;
     width: 300px;
-}
-
-
-/* About me header */
-
-#header {
-    text-align: center;
-    font-family: 'Montserrat';
 }
 
 
@@ -96,40 +86,19 @@ html {
 }
 
 
-/* About me content */
-
-p {
-    font-size: 22px;
-}
+/* Header */
 
 #header {
-    text-align: center;
-}
-
-#my-image {
-    height: 350px;
-    width: 500px;
     margin: auto;
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 10px;
 }
 
-.animate__animated {
-    --animation-duration: 3s;
-}
 
+/* Instagram feed */
 
-/* For smaller screens */
-
-@media(max-width: 767px) {
-    p {
-        font-size: large;
-        font-family: 'Montserrat';
-    }
-    #about-me-desc {
-        padding: 20px;
-    }
-    #my-image {
-        height: 300px;
-        width: 350px;
-        margin: auto;
-    }
+#curator-feed-default-feed-layout {
+    background-color: black;
 }

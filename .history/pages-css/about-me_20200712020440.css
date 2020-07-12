@@ -5,6 +5,7 @@ html {
     height: 100%;
     overflow-x: hidden;
     background-color: red;
+    font-family: Montserrat;
 }
 
 .bg {
@@ -34,9 +35,8 @@ html {
 
 /* About me header */
 
-#header {
+#about-me-header {
     text-align: center;
-    font-family: 'Montserrat';
 }
 
 
@@ -122,7 +122,6 @@ p {
 @media(max-width: 767px) {
     p {
         font-size: large;
-        font-family: 'Montserrat';
     }
     #about-me-desc {
         padding: 20px;
