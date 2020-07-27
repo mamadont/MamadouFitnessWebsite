@@ -23,7 +23,7 @@
 
 #welcome-banner {
     background-color: black;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,6 +34,7 @@
 #take-flight-image {
     height: 400px;
     width: 400px;
+    padding-bottom: -100px;
 }
 
 @media(max-width: 767px) {
@@ -46,9 +47,7 @@
     }
 }
 
-.fab {
-    color: white;
-}
+#media-icons {}
 
 
 /* About me section */

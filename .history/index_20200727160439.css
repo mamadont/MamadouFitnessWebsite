@@ -23,9 +23,10 @@
 
 #welcome-banner {
     background-color: black;
-    height: 450px;
+    height: 200px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -46,9 +47,7 @@
     }
 }
 
-.fab {
-    color: white;
-}
+#media-icons {}
 
 
 /* About me section */

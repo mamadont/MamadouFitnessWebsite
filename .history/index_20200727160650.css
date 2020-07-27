@@ -23,7 +23,7 @@
 
 #welcome-banner {
     background-color: black;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,8 +46,8 @@
     }
 }
 
-.fab {
-    color: white;
+#media-icons {
+    padding-top: -200px;
 }
 
 

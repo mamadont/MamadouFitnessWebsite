@@ -23,12 +23,21 @@
 
 #welcome-banner {
     background-color: black;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #take-flight-image {
@@ -44,10 +53,6 @@
     #about-me-text {
         padding-top: 10px;
     }
-}
-
-.fab {
-    color: white;
 }
 
 

@@ -23,11 +23,12 @@
 
 #welcome-banner {
     background-color: black;
-    height: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-shrink: 3;
     width: 100%;
 }
 
@@ -46,9 +47,7 @@
     }
 }
 
-.fab {
-    color: white;
-}
+#media-icons {}
 
 
 /* About me section */
