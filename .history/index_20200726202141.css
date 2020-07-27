@@ -5,12 +5,11 @@
 }
 
 .nav-link {
-    color: #FFFFFF;
-    font-size: larger;
+    color: #FF0000;
 }
 
 .nav-link:hover {
-    color: #FF0000;
+    color: #FFFFFF;
 }
 
 .fa-bars {
@@ -30,18 +29,11 @@
 }
 
 #welcome-header {
-    color: #FFFFFF;
+    color: red;
     font-family: 'Montserrat';
 }
 
 #take-flight-image {
-    height: 400px;
-    width: 400px;
-}
-
-@media(max-width: 767px) {
-    #take-flight-image {
-        height: 350px;
-        width: 350px;
-    }
+    height: 250px;
+    width: 250px;
 }

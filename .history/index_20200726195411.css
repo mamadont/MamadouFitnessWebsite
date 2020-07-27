@@ -1,0 +1,29 @@
+/* General HTML element styling */
+
+li {
+    color: red;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: black;
+}
+
+
+/* Welcome section */
+
+#welcome-banner {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-header {
+    color: red;
+    font-family: 'Montserrat';
+}

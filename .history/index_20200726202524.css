@@ -35,13 +35,6 @@
 }
 
 #take-flight-image {
-    height: 400px;
-    width: 400px;
-}
-
-@media(max-width: 767px) {
-    #take-flight-image {
-        height: 350px;
-        width: 350px;
-    }
+    height: 500px;
+    width: 500px;
 }

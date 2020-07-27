@@ -1,0 +1,11 @@
+#welcome-banner {
+    background-color: black;
+    height: 300px;
+    display: flex;
+}
+
+#welcome-header {
+    color: red;
+    text-align: center;
+    font-family: 'Montserrat';
+}

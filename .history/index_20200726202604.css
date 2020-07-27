@@ -27,6 +27,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0.5;
 }
 
 #welcome-header {
@@ -37,11 +38,4 @@
 #take-flight-image {
     height: 400px;
     width: 400px;
-}
-
-@media(max-width: 767px) {
-    #take-flight-image {
-        height: 350px;
-        width: 350px;
-    }
 }

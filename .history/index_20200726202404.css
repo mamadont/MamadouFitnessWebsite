@@ -6,7 +6,6 @@
 
 .nav-link {
     color: #FFFFFF;
-    font-size: larger;
 }
 
 .nav-link:hover {
@@ -35,13 +34,6 @@
 }
 
 #take-flight-image {
-    height: 400px;
-    width: 400px;
-}
-
-@media(max-width: 767px) {
-    #take-flight-image {
-        height: 350px;
-        width: 350px;
-    }
+    height: 250px;
+    width: 250px;
 }

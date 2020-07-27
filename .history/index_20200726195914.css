@@ -1,0 +1,34 @@
+/* Navbar */
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: red;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.fa-bars {
+    color: red;
+}
+
+
+/* Welcome section */
+
+#welcome-banner {
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome-header {
+    color: red;
+    font-family: 'Montserrat';
+}
