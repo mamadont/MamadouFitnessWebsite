@@ -28,7 +28,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+}
+
+#welcome-header {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
 }
 
 #take-flight-image {
@@ -41,9 +45,6 @@
         height: 350px;
         width: 350px;
     }
-    #about-me-text {
-        padding-top: 10px;
-    }
 }
 
 
@@ -51,24 +52,4 @@
 
 #about-me-title {
     text-align: center;
-    padding-top: 10px;
-    font-family: 'Montserrat';
-}
-
-#about-me-pic {
-    height: 300px;
-    width: 450px;
-}
-
-#about-me-text {
-    font-family: 'Montserrat';
-    font-size: 18px;
-}
-
-.animate__animated.animate__slideInLeft {
-    animation-duration: 2s;
-}
-
-.animate__animated.animate__slideInRight {
-    animation-duration: 2s;
 }
