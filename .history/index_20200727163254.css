@@ -53,10 +53,6 @@
 
 /* About me section */
 
-#about-me-banner {
-    background-color: white;
-}
-
 #about-me-title {
     text-align: center;
     padding-top: 10px;
@@ -85,17 +81,13 @@
 /* Social media section */
 
 #social-media-banner {
-    height: 700px;
+    height: 400px;
     background-color: black;
 }
 
 #social-media-header {
     text-align: center;
-    color: white;
+    color: red;
     padding-top: 10px;
     font-family: 'Montserrat';
-}
-
-#ig-feed {
-    padding: 10px;
 }

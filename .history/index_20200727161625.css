@@ -47,15 +47,11 @@
 }
 
 .fab {
-    color: #FFFFFF;
+    color: white;
 }
 
 
 /* About me section */
-
-#about-me-banner {
-    background-color: white;
-}
 
 #about-me-title {
     text-align: center;
@@ -79,23 +75,4 @@
 
 .animate__animated.animate__slideInRight {
     animation-duration: 2s;
-}
-
-
-/* Social media section */
-
-#social-media-banner {
-    height: 700px;
-    background-color: black;
-}
-
-#social-media-header {
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-    font-family: 'Montserrat';
-}
-
-#ig-feed {
-    padding: 10px;
 }

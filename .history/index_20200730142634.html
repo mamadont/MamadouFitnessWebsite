@@ -51,7 +51,7 @@
         <!-- Welcome -->
         <div id="welcome-banner" class="container-fluid">
             <!-- Take flight eagle -->
-            <img id="take-flight-image" src="assets/takeflightfinal.PNG" />
+            <img id="take-flight-image" src="assets/takeflightfinal" />
 
             <!-- Social media icons-->
             <span id="media-icons">
@@ -86,15 +86,32 @@
         </div>
         </div>
     </section>
+
     <!-- Social media section -->
     <section>
         <div id="social-media-banner" class="container-fluid">
-            <h1 class="animate__animated animate__slideInDown" id="social-media-header"> Social media </h1>
-
-
-            <!-- Instagram feed -->
-            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-            <div id="ig-feed" class="elfsight-app-e6fd8815-0e4f-4b5d-b1e9-8a1eb0b84c95"></div>
+            <h1 id="social-media-header"> Social media </h1>
+            <script src="scripts/jquery.instagramFeed/jquery.instagramFeed.min.js"></script>
+            <script>
+                (function($) {
+                    $(window).on('load', function() {
+                        $.instagramFeed({
+                            'username': 'mamadoufitness',
+                            'container': "#instagram-feed1",
+                            'display_profile': false,
+                            'display_biography': false,
+                            'display_gallery': true,
+                            'callback': null,
+                            'styling': true,
+                            'items': 8,
+                            'items_per_row': 4,
+                            'margin': 1,
+                            'lazy_load': true,
+                            'on_error': console.error
+                        });
+                    });
+                })(jQuery);
+            </script>
         </div>
     </section>
 
