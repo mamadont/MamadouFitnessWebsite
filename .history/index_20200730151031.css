@@ -75,7 +75,7 @@
 /* Social media section */
 
 #social-media-banner {
-    height: auto;
+    height: 700px;
     background-color: black;
 }
 
@@ -97,5 +97,8 @@
     }
     #about-me-text {
         padding-top: 10px;
+    }
+    #social-media-banner {
+        height: auto;
     }
 }
