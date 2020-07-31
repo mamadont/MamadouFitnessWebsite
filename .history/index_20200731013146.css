@@ -3,11 +3,6 @@ body {
     overflow-x: hidden;
 }
 
-@font-face {
-    font-family: richardsonBrandAccelerator;
-    src: url(assets/richardson-brand-font/richardson_brand_accelerator-webfont.woff);
-}
-
 
 /* Navbar */
 
@@ -18,7 +13,7 @@ body {
 .nav-link {
     color: #FFFFFF;
     font-size: larger;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
 }
 
 .nav-link:hover {
@@ -65,7 +60,7 @@ body {
 #about-me-title {
     text-align: center;
     padding-top: 10px;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
     color: red;
 }
 
@@ -101,25 +96,11 @@ body {
     text-align: center;
     color: red;
     padding-top: 10px;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
 }
 
 #ig-feed {
     padding: 10px;
-}
-
-
-/* Contact me section */
-
-#contact-me-container {
-    background-color: black;
-}
-
-#contact-me-header {
-    text-align: center;
-    color: red;
-    padding-top: 10px;
-    font-family: 'richardsonBrandAccelerator';
 }
 
 @media(max-width: 767px) {

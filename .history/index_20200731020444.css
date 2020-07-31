@@ -18,7 +18,7 @@ body {
 .nav-link {
     color: #FFFFFF;
     font-size: larger;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
 }
 
 .nav-link:hover {
@@ -101,7 +101,7 @@ body {
     text-align: center;
     color: red;
     padding-top: 10px;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
 }
 
 #ig-feed {
@@ -119,7 +119,7 @@ body {
     text-align: center;
     color: red;
     padding-top: 10px;
-    font-family: 'richardsonBrandAccelerator';
+    font-family: 'Montserrat';
 }
 
 @media(max-width: 767px) {
