@@ -63,13 +63,13 @@ body {
 #about-me-pic {
     height: 300px;
     width: 450px;
-    border-radius: 15px;
 }
 
 #about-me-text {
     font-family: 'Montserrat';
     font-size: 18px;
-    color: white;
+    color: red;
+    text-shadow: 2px 2px;
 }
 
 .animate__animated.animate__slideInLeft {
@@ -90,7 +90,7 @@ body {
 
 #social-media-header {
     text-align: center;
-    color: red;
+    color: white;
     padding-top: 10px;
     font-family: 'Montserrat';
 }

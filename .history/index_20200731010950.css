@@ -51,6 +51,7 @@ body {
 
 #about-me-banner {
     background-color: black;
+    border: 5px;
 }
 
 #about-me-title {
@@ -63,7 +64,6 @@ body {
 #about-me-pic {
     height: 300px;
     width: 450px;
-    border-radius: 15px;
 }
 
 #about-me-text {
