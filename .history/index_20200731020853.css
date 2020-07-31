@@ -102,7 +102,6 @@ body {
     color: red;
     padding-top: 10px;
     font-family: 'richardsonBrandAccelerator';
-    font-size: 27px;
 }
 
 #ig-feed {
@@ -121,6 +120,7 @@ body {
     color: red;
     padding-top: 10px;
     font-family: 'richardsonBrandAccelerator';
+    font-size: medium;
 }
 
 @media(max-width: 767px) {
