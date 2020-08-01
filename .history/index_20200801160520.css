@@ -130,31 +130,11 @@ body {
     color: white;
 }
 
-#form-container {
-    height: 500px;
-    width: 500px;
-}
-
 label {
     color: white;
 }
 
 #userName {
-    background-color: black;
-    border-color: black;
-}
-
-#userEmail {
-    background-color: black;
-    border-color: black;
-}
-
-#userSubject {
-    background-color: black;
-    border-color: black;
-}
-
-#userText {
     background-color: black;
     border-color: black;
 }

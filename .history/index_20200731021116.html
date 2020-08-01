@@ -17,8 +17,6 @@
     <!-- Javascript for this page-->
     <script src="scripts/script.js"></script>
 
-
-
     <body>
         <!-- Welcome section-->
         <section id="home">
@@ -106,55 +104,77 @@
         <section>
             <div id="contact-me-container" class="container-fluid">
                 <h1 id="contact-me-header"> Contact me </h1>
+                <!-- START: Contact form -->
+                <div class="wrapper animate__animated animate__zoomIn">
+                    <div class="inner">
+                        <form action="">
+                            <h3>Apply for Coaching</h3>
+                            <p>Or you can just send me a message :)</p>
+                            <!-- Name -->
+                            <label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span>Your Name</span>
+						<span class="border"></span>
+                    </label>
+                            <!-- Email -->
+                            <label class="form-group">
+						<input type="text" class="form-control"  required>
+						<span for="">Your Email</span>
+						<span class="border"></span>
+                    </label>
+                            <!-- Program length -->
+                            <label class="form-group">
+                        <select class="form-control" name="cars" id="cars">
+                                <option value=" " disabled selected value></option>
+                                <option value="4">4 weeks</option>
+                                <option value="6">6 weeks</option>
+                                <option value="8">8 weeks</option>
+                                <option value="12">12 weeks</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span for="cars">Length of program:</span>
+                    <span class="border"></span>
+                    </label>
 
-                <!-- Tabs for contact me and apply for coaching -->
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="contact-me-tab" data-toggle="tab" href="#contact-me" role="tab">Contact Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="apply-for-coaching-tab" data-toggle="tab" href="#apply-for-coaching" role="tab">Apply for Coaching</a>
-                    </li>
-                </ul>
+                            <!-- Sex -->
+                            <label class="form-group">
+                        
+                        <select class="form-control" name="cars" id="cars">
+                                <option value=" " disabled selected value></option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                            <span for="cars">Sex:</span>
+                    <span class="border"></span>
+                    </label>
 
-                <!-- Content for the respective tabs -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="contact-me" role="tabpanel" aria-labelledby="home-tab">
-                        <!-- Contact me form -->
-                        <div id="form-container">
-                            <form>
-                                <div class="form-group">
-                                    <label for="userName">Name</label>
-                                    <input type="text" class="form-control" id="userName" aria-describedby="nameHelp" placeholder="Enter full name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userEmail">Email address</label>
-                                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userName">Subject</label>
-                                    <input type="text" class="form-control" id="userSubject" aria-describedby="subjectHelp" placeholder="Enter subject">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userText">Message</label>
-                                    <textarea class="form-control" id="userText" rows="3"></textarea>
-                                </div>
+                            </label>
 
-                            </form>
-                        </div>
+                            <!-- Weight -->
+                            <label class="form-group">
+						<input type="number" class="form-control"  required>
+						<span>Your Weight</span>
+						<span class="border"></span>
+                    </label>
+                            <!-- Fitnes goals-->
+                            <label class="form-group">
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span for="">What are your fitness goals?</span>
+						<span class="border"></span>
+                    </label>
+                            <!-- Medical conditions-->
+                            <label class="form-group">
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span for="">Do you have any medical conditions?</span>
+						<span class="border"></span>
+					</label>
+                            <button>Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+                        </form>
                     </div>
-
-                    <div class="tab-pane" id="apply-for-coaching" role="tabpanel" aria-labelledby="profile-tab">
-
-                    </div>
-
                 </div>
-
-                <script>
-                    $(function() {
-                        $('#myTab li:last-child a').tab('show')
-                    })
-                </script>
+                <!-- END: Contact form -->
             </div>
         </section>
 

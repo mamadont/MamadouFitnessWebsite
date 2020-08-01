@@ -125,38 +125,9 @@ body {
     font-size: 27px;
 }
 
-#contact-me-tab,
-#apply-for-coaching-tab {
-    color: white;
-}
-
-#form-container {
-    height: 500px;
-    width: 500px;
-}
-
-label {
-    color: white;
-}
-
-#userName {
-    background-color: black;
-    border-color: black;
-}
-
-#userEmail {
-    background-color: black;
-    border-color: black;
-}
-
-#userSubject {
-    background-color: black;
-    border-color: black;
-}
-
-#userText {
-    background-color: black;
-    border-color: black;
+.form-control[type=text]:focus {
+    box-shadow: 0 1px 0 0 green !important;
+    border-bottom: 1px solid green !important;
 }
 
 @media(max-width: 767px) {

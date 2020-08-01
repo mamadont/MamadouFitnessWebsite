@@ -17,8 +17,6 @@
     <!-- Javascript for this page-->
     <script src="scripts/script.js"></script>
 
-
-
     <body>
         <!-- Welcome section-->
         <section id="home">
@@ -106,55 +104,14 @@
         <section>
             <div id="contact-me-container" class="container-fluid">
                 <h1 id="contact-me-header"> Contact me </h1>
-
-                <!-- Tabs for contact me and apply for coaching -->
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="contact-me-tab" data-toggle="tab" href="#contact-me" role="tab">Contact Me</a>
+                        <a class="nav-link" href="#">Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" id="apply-for-coaching-tab" data-toggle="tab" href="#apply-for-coaching" role="tab">Apply for Coaching</a>
+                        <a class="nav-link" href="#">Apply for Coaching</a>
                     </li>
                 </ul>
-
-                <!-- Content for the respective tabs -->
-                <div class="tab-content">
-                    <div class="tab-pane active" id="contact-me" role="tabpanel" aria-labelledby="home-tab">
-                        <!-- Contact me form -->
-                        <div id="form-container">
-                            <form>
-                                <div class="form-group">
-                                    <label for="userName">Name</label>
-                                    <input type="text" class="form-control" id="userName" aria-describedby="nameHelp" placeholder="Enter full name">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userEmail">Email address</label>
-                                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userName">Subject</label>
-                                    <input type="text" class="form-control" id="userSubject" aria-describedby="subjectHelp" placeholder="Enter subject">
-                                </div>
-                                <div class="form-group">
-                                    <label for="userText">Message</label>
-                                    <textarea class="form-control" id="userText" rows="3"></textarea>
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="tab-pane" id="apply-for-coaching" role="tabpanel" aria-labelledby="profile-tab">
-
-                    </div>
-
-                </div>
-
-                <script>
-                    $(function() {
-                        $('#myTab li:last-child a').tab('show')
-                    })
-                </script>
             </div>
         </section>
 
