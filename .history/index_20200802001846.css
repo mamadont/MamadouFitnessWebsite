@@ -130,11 +130,7 @@ body {
     color: white;
 }
 
-#contact-me-tab:focus {
-    color: red;
-}
-
-#apply-for-coaching-tab:focus {
+#contact-me-tab:hover {
     color: red;
 }
 

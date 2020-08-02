@@ -130,14 +130,6 @@ body {
     color: white;
 }
 
-#contact-me-tab:focus {
-    color: red;
-}
-
-#apply-for-coaching-tab:focus {
-    color: red;
-}
-
 #form-container {
     padding-bottom: 10px;
 }
