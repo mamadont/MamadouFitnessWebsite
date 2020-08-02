@@ -130,12 +130,8 @@ body {
     color: white;
 }
 
-#form-container {
-    padding-bottom: 10px;
-}
-
 label {
-    color: white;
+    color: red;
 }
 
 #userName {
@@ -145,17 +141,17 @@ label {
 
 #userEmail {
     background-color: black;
-    border-color: #5F5F5F;
+    border-color: black;
 }
 
 #userSubject {
     background-color: black;
-    border-color: #5F5F5F;
+    border-color: black;
 }
 
 #userText {
     background-color: black;
-    border-color: #5F5F5F;
+    border-color: black;
 }
 
 @media(max-width: 767px) {
