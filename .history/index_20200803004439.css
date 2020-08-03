@@ -127,12 +127,12 @@ body {
 
 #contact-me-tab,
 #apply-for-coaching-tab {
-    background-color: black;
-    border-color: red;
+    background-color: red;
+    border-color: grey;
 }
 
 #contact-me-tab:focus {
-    color: red;
+    color: white;
 }
 
 #apply-for-coaching-tab:focus {
