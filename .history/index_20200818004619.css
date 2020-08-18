@@ -139,6 +139,10 @@ body {
     color: red;
 }
 
+#contact-me-tab:active {
+    color: red;
+}
+
 #apply-for-coaching-tab:focus {
     color: red;
 }

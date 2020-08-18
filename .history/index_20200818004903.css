@@ -135,6 +135,10 @@ body {
     border-color: red;
 }
 
+#contact-me-tab {
+    color: red;
+}
+
 #contact-me-tab:focus {
     color: red;
 }

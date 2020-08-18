@@ -133,6 +133,7 @@ body {
 #apply-for-coaching-tab {
     background-color: black;
     border-color: red;
+    color: white;
 }
 
 #contact-me-tab:focus {
