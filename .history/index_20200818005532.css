@@ -1,0 +1,208 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: richardsonBrandAccelerator;
+    src: url(assets/richardson-brand-font/richardson_brand_accelerator-webfont.woff);
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: #000000;
+}
+
+.nav-link {
+    color: #FFFFFF;
+    font-size: larger;
+    font-family: 'richardsonBrandAccelerator';
+}
+
+.nav-link:hover {
+    color: #FF0000;
+}
+
+.fa-bars {
+    color: #FF0000;
+}
+
+
+/* Welcome section */
+
+#welcome-banner {
+    background-color: black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#take-flight-image {
+    height: 400px;
+    width: 400px;
+}
+
+.fab {
+    color: #FFFFFF;
+}
+
+.fas {
+    color: #FFFFFF;
+}
+
+
+/* About me section */
+
+#about-me-banner {
+    background-color: black;
+}
+
+#about-me-title {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'richardsonBrandAccelerator';
+    color: red;
+    font-size: 27px;
+}
+
+#about-me-pic {
+    height: 300px;
+    width: 450px;
+    border-radius: 15px;
+}
+
+#about-me-text {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.animate__animated.animate__slideInLeft {
+    animation-duration: 2s;
+}
+
+.animate__animated.animate__slideInRight {
+    animation-duration: 2s;
+}
+
+
+/* Social media section */
+
+#social-media-banner {
+    height: auto;
+    background-color: black;
+}
+
+#social-media-header {
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+    font-family: 'richardsonBrandAccelerator';
+    font-size: 27px;
+}
+
+#ig-feed {
+    padding: 10px;
+}
+
+
+/* Contact me section */
+
+#contact-me-container {
+    background-color: black;
+}
+
+#contact-me-header {
+    text-align: center;
+    color: red;
+    padding-top: 10px;
+    font-family: 'richardsonBrandAccelerator';
+    font-size: 27px;
+}
+
+#contact-tabs {
+    border-color: red;
+}
+
+#contact-me-tab,
+#apply-for-coaching-tab {
+    background-color: black;
+    border-color: red;
+}
+
+#contact-me-tab:focus {
+    color: red;
+}
+
+#apply-for-coaching-tab:focus {
+    color: red;
+}
+
+#form-container {
+    padding-bottom: 10px;
+}
+
+label {
+    color: white;
+}
+
+#userName {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userEmail {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userSubject {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userText {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userProgramLength {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userSex {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userWeight {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userConditions {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+#userGoals {
+    background-color: black;
+    border-color: #5F5F5F;
+}
+
+@media(max-width: 767px) {
+    #take-flight-image {
+        height: 350px;
+        width: 350px;
+    }
+    #about-me-text {
+        padding-top: 10px;
+    }
+}
