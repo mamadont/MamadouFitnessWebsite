@@ -28,3 +28,5 @@ let info = transporter.sendMail(mailInfo, function(err, data) {
         console.log('Email has been sent');
     }
 })
+
+console.log("Message sent: %s", info.messageId);

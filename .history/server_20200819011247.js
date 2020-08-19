@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+var xoauth2 = require("xoauth2");
 
 
 
@@ -21,10 +22,12 @@ let mailInfo = {
 }
 
 // Send email
-let info = transporter.sendMail(mailInfo, function(err, data) {
+let info = await transporter.sendMail(mailInfo, function(err, data) {
     if (err) {
         console.log('Error occurs', err);
     } else {
         console.log('Email has been sent');
     }
 })
+
+console.log("Message sent: %s", info.messageId);
